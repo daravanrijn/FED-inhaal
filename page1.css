@@ -1,5 +1,5 @@
 :root {
-    --achtergrondKleur:rgba(238, 238, 238, 1);
+    --achtergrondKleur:red;
 
     --tekstKleurZwart:black; 
     --tekstKleurWit:white;
