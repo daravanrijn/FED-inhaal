@@ -1,0 +1,44 @@
+const openButton = document.querySelector('header > label, header > button');
+const closeButton = document.querySelector('header nav > button');
+const nav = document.querySelector('header nav');
+
+
+openButton.addEventListener('click', () => {
+    nav.style.display = 'flex';
+});
+
+closeButton.addEventListener('click', () => {
+    nav.style.display = 'none';
+});
+
+
+const submenuButtons = document.querySelectorAll('header nav ul li > button');
+
+submenuButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const submenu = button.nextElementSibling;
+
+        if (submenu.style.display === 'block') {
+            submenu.style.display = 'none';
+        } else {
+            submenu.style.display = 'block';
+        }
+    });
+});
+
+
+// Hieronder voor de pijltjes in het submenu (niet tegelijk open)
+
+const detailsElements = document.querySelectorAll('header nav details');
+
+detailsElements.forEach(detail => {
+    detail.addEventListener('toggle', () => {
+        if (detail.open) {
+            detailsElements.forEach(otherDetail => {
+                if (otherDetail !== detail) {
+                    otherDetail.removeAttribute('open');
+                }
+            });
+        }
+    });
+});

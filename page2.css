@@ -1,0 +1,291 @@
+:root {
+    --achtergrondKleur:#c8c8d2;
+    --tekstKleurZwart:black; 
+    --tekstKleurWit:white;
+
+    --knopKleurHeader:#0f8cf0;
+    --tekstKleurKnopHeader:black;
+    --hoverKleurKnopHeader:#9ebef8;
+    --activeKleurKnopHeader:#e7eefd;
+
+    --knopKleurDownload:#0f8cf0;
+    /* Kan ik dezelfde gebruiken als voor header of is dat verwarrend? */
+
+    --borderKleurZwart:black;
+
+    --hoverKleurSocialMediaIconsPowerade:#0d7dd9;
+    --activeKleurSocialMediaIconsPowerade:#0b70c3;
+}
+
+section:not(:first-of-type) {
+    padding: 0 1.6em;
+}
+
+/* ============================================
+   SECTION 1 (Hero image +) tekst
+   ============================================ */
+
+section:first-of-type img {
+    width: 100%;
+}
+
+section:nth-of-type(1) h2 {
+    margin: 1.45em auto;
+    text-align: center;
+    font-size: 1.79em;
+    letter-spacing: -0.02em; 
+    font-weight: 650;
+    line-height: 1.25em;
+    color: var(--tekstKleurZwart);
+    padding: 0 0.8em;
+}
+
+/* ============================================
+   SECTION 2 Tekst (+ Video)
+   ============================================ */
+
+section:nth-of-type(2) h2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 650;
+    line-height: 1.33em;
+    margin: 1.35em auto 1em;
+    letter-spacing: -0.02em;
+    color: var(--tekstKleurZwart);
+}
+
+/* ============================================
+   SECTION 3 Tekst
+   ============================================ */
+
+section:nth-of-type(3) h2 {
+    font-weight: 650;
+    letter-spacing: -0.03em;
+    line-height: 32px;
+    padding-top: 0.8em;
+    padding-bottom: 2.5em;
+    color: var(--tekstKleurZwart);
+}
+
+section:nth-of-type(3) p {
+    font-size: 1.05em;
+    font-weight: 425;
+    line-height: 24px;
+    color: var(--tekstKleurZwart);
+}
+
+section:nth-of-type(3) p strong {
+    font-weight: 625;
+}
+
+section:nth-of-type(3) h3 {
+    font-size: 1.02em;
+    font-weight: 650;
+    padding-top: 1.6em;
+    margin-bottom: 0;
+    color: var(--tekstKleurZwart);
+}
+
+section:nth-of-type(3) h3 + p {
+    margin-top: 0.6em;
+}
+
+section:nth-of-type(3) p + p {
+    margin-top: 2.4em;
+}
+
+section:nth-of-type(3) a {
+    display: block;
+    margin: 1.8em auto 3.3em;
+    padding: 0.58em 1.2em;
+    background-color: var(--knopKleurDownload);
+    color: var(--tekstKleurZwart);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 650;
+    font-size: 1.05em;
+}
+
+section:nth-of-type(3) a:hover {
+    background-color: var(--hoverKleurKnopHeader);
+}
+
+section:nth-of-type(3) a:active {
+    background-color: var(--activeKleurKnopHeader);
+}
+
+/* ============================================
+   SECTION 4 Vier atleten
+   ============================================ */
+
+section:nth-of-type(4) article {
+    margin-bottom: 4.5em;
+}
+
+section:nth-of-type(4) article img {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+section:nth-of-type(4) article p {
+    font-size: 1.51em;
+    font-weight: 660;
+    line-height: 1.33em;
+    letter-spacing: -0.03em;
+    color: var(--tekstKleurZwart);
+    text-align: center;
+    margin: 0 auto 0.4em;
+}
+
+section:nth-of-type(4) article small {
+    display: block;
+    text-align: center;
+    font-size: 1.05em;
+    font-weight: 430;
+    color: var(--tekstKleurZwart);
+}
+
+/* ============================================
+   SECTION 5 Alle atleten
+   ============================================ */
+
+section:nth-of-type(5) h2 {
+    text-align: center;
+    font-size: 1.7em;
+    margin-top: -0.5em;
+    margin-bottom: 0;
+    color: var(--tekstKleurZwart);
+}
+
+section:nth-of-type(5) p {
+    text-align: center;
+    font-size: 1.05em;
+    font-weight: 430;
+    line-height: 1.4em;
+    color: var(--tekstKleurZwart);
+}
+
+section:nth-of-type(5) ul {
+    list-style: none;
+    padding: 0;
+    margin: 2em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+section:nth-of-type(5) li {
+    text-align: center;
+}
+
+section:nth-of-type(5) li img {
+    width: 100%;
+    margin-bottom: 0.4em;
+}
+
+section:nth-of-type(5) h3 {
+    font-size: 1.04em;
+    font-weight: 620;
+    margin: 0.7em 0 0.1em;
+    color: var(--tekstKleurZwart);
+}
+
+section:nth-of-type(5) li p {
+    font-size: 1.05em;
+    margin: 0;
+    line-height: 1.4;
+    color: var(--tekstKleurZwart);
+}
+
+section:nth-of-type(5) ul li:last-child {
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: 10em;
+}
+
+/* ============================================
+   SECTION 6 Tekt + Powerade
+   ============================================ */
+
+section:nth-of-type(6) > p:first-of-type {
+    text-align: center; 
+    font-size: 1.5em; 
+    font-weight: 650; 
+    line-height: 32px; 
+    margin: 1.8em auto; 
+    letter-spacing: -0.02em; 
+    color: var(--tekstKleurZwart);
+} 
+
+section:nth-of-type(6) p:nth-of-type(2) { 
+    text-align: center; 
+    font-size: 1.5em; 
+    font-weight: 650; 
+    line-height: 32px; 
+    margin: -0.1em auto; 
+    letter-spacing: -0.02em; 
+    color: var(--tekstKleurZwart);
+}
+
+section:nth-of-type(6) div {
+    background-color: var(--knopKleurHeader);
+    padding: 1.2em 1.6em 1.8em;
+    margin: 3.5em 0;
+    text-align: center;
+}
+
+section:nth-of-type(6) div p{
+    font-size: 1.75em;
+    font-weight: 650;
+    letter-spacing: -0.02em;
+    margin-top: 0.27em;
+    color: var(--tekstKleurZwart);
+}
+
+section:nth-of-type(6) div a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5em;
+    height: 2.5em;
+    margin: -0.3em 0.25em;
+    border: 2px solid var(--borderKleurZwart);
+}
+
+section:nth-of-type(6) div a:hover {
+    background-color: var(--hoverKleurSocialMediaIconsPowerade)
+}
+
+section:nth-of-type(6) div a:active {
+    background-color: var(--activeKleurSocialMediaIconsPowerade)
+}
+
+section:nth-of-type(6) div a img {
+    width: 0.85em;
+    height: auto;
+}
+
+@media (min-width: 600px) {
+
+    section:first-of-type img {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+
+    section:nth-of-type(2) video {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    section:first-of-type img {
+        max-width: 1440px;
+        content: url("images-athletes/powerade_the-athletes-code_hero-desktop.jpg");
+    }
+    
+}

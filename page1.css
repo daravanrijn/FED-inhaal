@@ -1,0 +1,407 @@
+:root {
+    --achtergrondKleur:rgba(238, 238, 238, 1);
+
+    --tekstKleurZwart:black; 
+    --tekstKleurWit:white;
+
+    --knopKleurHeader:black;
+    --tekstKleurKnopHeader:white;  
+    --hoverKleurKnopHeader:#353535;
+    --activeKleurKnopHeader:#4f4f4f;
+
+    --hoverKleurKnopKaart:#eeeeee;
+    --activeKleurKnopKaart:#d5d5d5;    
+    
+    --navbolletjeKleur:rgba(0,0,0,.4);
+    --activeKleurNavbolletje:black; 
+
+    --knopKleurWit:white;
+    --achtergrondKleurKaart:white;
+    --schaduwKleurKaartDuurzaamheid:#0000000f;
+
+    --borderKleurWit:white; 
+    --borderKleurZwart:black;
+   
+    --hoverKleurKnopDuurzaamheid:#d5d5d5;
+    --activeKleurKnopDuurzaamheid:#a5a5a5;
+
+    --schaduwKleurKaartMerken:rgba(0, 0, 0, 0.08);
+    --hoverKleurKnopMerken:rgb(209, 209, 209);
+    --activeKleurKnopMerken:rgb(181, 180, 180);
+}
+
+main > section {
+    padding-left: 1.6em;
+    padding-right: 1.6em;
+}
+
+/* ============================================
+   Carousel Basis 
+   ============================================ */
+
+main > ul {
+    list-style: none;
+    padding-left: 1.6em;
+    padding-right: 1.6em;
+    margin: 0;
+    display: flex;
+    gap: 0.9em; 
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+main > ul::-webkit-scrollbar {
+    display: none;
+}
+
+main > ul > li {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+}
+
+/* ============================================
+   SECTION 1 Kaart Digitale Wereld
+   ============================================ */
+
+main > ul > li:nth-of-type(1) section {
+    position: relative;
+    height: 34.7em;
+    margin: 2.5em 0;
+    border-radius: 1em;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+main > ul > li:nth-of-type(1) section img {
+    height: 100%;
+    object-fit: cover;
+}
+
+main > ul > li:nth-of-type(1) section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.1)
+        );
+    z-index: 0;
+}
+
+main > ul > li:nth-of-type(1) section h2,
+main > ul > li:nth-of-type(1) section p,
+main > ul > li:nth-of-type(1) section a {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    color: var(--tekstKleurWit);
+    text-align: center;
+    z-index: 1;
+}
+
+main > ul > li:nth-of-type(1) section p {
+    top: 14.5%;
+    font-size: 1.07em;
+    line-height: 1.4;
+    max-width: 48ch;
+    text-align: center;
+}
+
+main > ul > li:nth-of-type(1) section a {
+    top: 36%;
+    display: inline-block;
+    background-color: var(--knopKleurWit);
+    color: var(--tekstKleurZwart);
+    padding: 0.6em;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.05rem;
+    width: auto;  
+}
+
+main > ul > li:nth-of-type(1) section a:hover {
+    background-color: var(--hoverKleurKnopKaart);
+}
+
+main > ul > li:nth-of-type(1) section a:active {
+    background-color: var(--activeKleurKnopKaart);
+}
+
+main > ul > li:nth-of-type(1) section h2, 
+main > ul > li:nth-of-type(2) section h2 {
+    top: 5%;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    line-height: 1.3em;
+    letter-spacing: -0.02em;
+}
+
+/* ============================================
+   SECTION 2 Kaart Duurzaam Brabant
+   ============================================ */
+
+main > ul > li:nth-of-type(2) section {
+    position: relative;
+    height: 34.7em;
+    margin: 2.5em 0;
+    border-radius: 1em;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+main > ul > li:nth-of-type(2) section img {
+    height: 34.7em;
+    width: 100%;
+    object-fit: cover;
+    object-position: 34%;
+    transform: scale(1.08);
+    z-index: 0;
+}
+
+main > ul > li:nth-of-type(2) section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.0)
+    );
+    z-index: 1;
+}
+
+main > ul > li:nth-of-type(2) section h2,
+main > ul > li:nth-of-type(2) section p,
+main > ul > li:nth-of-type(2) section a {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    color: var(--tekstKleurWit);
+    text-align: center;
+    z-index: 2;
+}
+
+main > ul > li:nth-of-type(2) section p {
+    top: 14.5%;
+    font-size: 1.06em;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+
+main > ul > li:nth-of-type(2) section a {
+    top: 49%;
+    display: inline-block;
+    background-color: var(--knopKleurWit);
+    color: var(--tekstKleurZwart);
+    padding: 0.55em;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.05rem;
+    width: auto;  
+}
+
+main > ul > li:nth-of-type(2) section a:hover {
+    background-color: var(--hoverKleurKnopKaart); 
+}
+
+main > ul > li:nth-of-type(2) section a:active {
+    background-color: var(--hoverKleurKnopKaart);
+}
+
+/* ============================================
+   SECTION 3 Kaart De Atheletes Code
+   ============================================ */
+
+main > ul > li:nth-of-type(3) section {
+    position: relative;
+    height: 34.7em;
+    margin: 2.5em 0;
+    border-radius: 1em;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
+    
+main > ul > li:nth-of-type(3) section img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ============================================
+   NAV Bolletjes
+   ============================================ */
+
+main > nav {
+    display: flex;
+    justify-content: center;
+    gap: .6em;
+    margin-top: -1.5em;
+}
+
+main > nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--navbolletjeKleur);
+}
+
+main > nav a:active {
+    color: var(--activeKleurNavbolletje);
+}
+
+/* ============================================
+   SECTION 4 Duurzaamheid
+   ============================================ */
+
+main > section:nth-of-type(1) {
+    padding: 0;
+}
+   
+main > section:nth-of-type(1) h2 {
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: 630;
+    letter-spacing: -0.02em;
+    margin-bottom: 1em;
+}
+
+/* Wrapper (kaart + afbeelding) */
+main > section:nth-of-type(1) > div {
+    position: relative;
+    padding-left: 1.6em;
+    padding-right: 1.6em;
+}
+
+/* Witte kaart */
+main > section:nth-of-type(1) article {
+    background-color: var(--achtergrondKleurKaart);
+    border-radius: 1em;
+    padding: 0.1em 1.6em 1.5em;
+    box-shadow: 0 14px 16px var(--schaduwKleurKaartDuurzaamheid);
+    position: relative;
+    z-index: 2;
+}
+
+main > section:nth-of-type(1) h3 {
+    font-size: 1.7em;
+    font-weight: 650;
+    margin-bottom: 0;
+    letter-spacing: -0.02em;
+}
+
+main > section:nth-of-type(1) article p {
+    font-size: 1.05em;
+    line-height: 1.4em;
+    margin-top: 0.4em;
+    margin-bottom: 1.8em;
+    font-weight: 420;
+    max-width: 25.75ch;
+}
+
+main > section:nth-of-type(1) article a {
+    display: block;
+    text-align: center;
+    padding: 0.4em 1.2em;
+    border: 2px solid var(--borderKleurZwart);
+    border-radius: 999px;
+    text-decoration: none;
+    color: var(--tekstKleurZwart);
+    font-size: 1.05em;
+    font-weight: 600;
+}
+
+main > section:nth-of-type(1) article a:hover {
+    background-color: var(--hoverKleurKnopDuurzaamheid)
+}
+
+main > section:nth-of-type(1) article a:active {
+    background-color: var(--activeKleurKnopDuurzaamheid)
+}
+
+/* Afbeelding onder de kaart */
+main > section:nth-of-type(1) img {
+    margin-top: -5em;
+}
+
+/* ============================================
+   SECTION 5 Verken onze merken
+   ============================================ */
+
+main > section:nth-of-type(2) h2 {
+    text-align: center;
+    font-size: 1.73em;
+    font-weight: 650;
+    letter-spacing: -0.02em;
+    padding-top: 0.7em;
+    color: var(--tekstKleurZwart);
+}
+
+main > section:nth-of-type(2) ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0 2.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+main > section:nth-of-type(2) li {
+    background-color: var(--achtergrondKleurKaart);
+    border-radius: 1em;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    box-shadow: 0 10px 25px var(--schaduwKleurKaartMerken);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+main > section:nth-of-type(2) li:hover {
+    transform: scale(1.04);
+    box-shadow: 0 15px 35px var(--schaduwKleurKaartMerken);
+}
+
+main > section:nth-of-type(2) li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+main > section:nth-of-type(2) li:last-child {
+    grid-column: 1 / -1;
+    justify-self: center;
+    padding: 24px;
+    max-width: 48%;
+}
+
+main > section:nth-of-type(2) > a {
+    display: block;
+    text-align: center;
+    padding: .5em 1.2em;
+    margin-bottom: 2em;
+    border: 2px solid var(--borderKleurZwart);
+    border-radius: 999px;
+    color: var(--tekstKleurZwart);
+    text-decoration: none;
+    font-size: 1.05em;
+    font-weight: 600;
+}
+
+main > section:nth-of-type(2) > a:hover {
+    background-color: var(--hoverKleurKnopMerken)
+}
+
+main > section:nth-of-type(2) > a:active {
+    background-color: var(--activeKleurKnopMerken)
+}
