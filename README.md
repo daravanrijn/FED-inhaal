@@ -306,6 +306,7 @@ Toen ik even iets beter begreep hoe het werkte ging het navigeren wel beter, maa
 
   - Ik ben de WCAG checklist opnieuw afgegaan en doordat ik de aria-labels heb toegevoegd aan de buttons en links heb ik dat verbeterd.
     Ik heb alleen dus geen skip link en de video heeft volgens mij dus wel ook autoplay wat beter van niet kan. 
+    Wat ik later nog wel aangepast heb zijn de knoppen in het nav menu voor de mobile versie. Het leek mij dat er ruimte genoeg was om deze knoppen wat groter te maken zodat ze makkelijker klikbaar zijn.
 
     Ik zal de lijst meenemen naar het eindgesprek.
  
@@ -329,9 +330,34 @@ Toen ik even iets beter begreep hoe het werkte ging het navigeren wel beter, maa
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Wanneer ik het maandag 19 januari om 14:00 inlever is het volgende helaas nog niet gelukt:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  - Het juist en responsive maken van de header en footer voor de desktop versie (vanaf 1200px).
+    Dit heb ik gewoon niet meer gered qua tijd. Wel heb ik de header voor de desktop aan het begin van het blok gemaakt, dus deze code heb ik wel, van de footer nog niet.
+  - Landscape/liggend voor responsive.
+    Hier ben ik op het laatste moment pas achter gekomen dat dat ook nog moest.
+
+  Iets minder belangrijk, maar wat ik wel nog had gedaan met meer tijd:
+
+  - De laatste section toevoegen aan de footer
+  - Ik gebruik nu uiteindelijk twee div's. Eentje voor die laatste gedeelde section en eentje voor de kaart in de section over duurzaamheid op de index.html. Ik had hier nog naar willen kijken of dit ook zonder div kon.
+  - Op het laatste moment heb ik gezien dat ik het kleine blauwe geluidsicoon dat over de video op theathletescode.html zit niet heb. 
+
+  Wat ik lastig vond:
+  - Vooral position: absolute/relative vind ik nog erg lastig te begrijpen. 
+  - Grid en Flexbox heb ik ook nog wel echt hulp voor nodig, maar snap ik langzaamaan steeds meer.
+  - Ik ben veel tijd kwijt geweest aan de carousel. Dat vond ik denk ik het lastigste onderdeel van de twee pagina's.
+
+  <img src="readme-images/header-nu.png" width="375px" alt="Mijn header vanaf 1200px, klopt niet. Nav moet tevoorschijn komen">
+  <img src="readme-images/mijn-header-desktop.png" width="375px" alt="De header die ik eerder had gemaakt. Klopt wel bijna">
+  <img src="readme-images/coca-cola-header.png" width="375px" alt="De juiste header vanaf 1200px, van de coca-cola site">
+
+  <img src="readme-images/footer-mobile.png" width="375px" alt="Mijn footer van 375-600px, kloppend">
+  <img src="readme-images/footer-600-1200px.png" width="375px" alt="Mijn footer van 600-1200px, kloppend">
+  <img src="readme-images/footer-1200px<.png" width="375px" alt="Mijn footer vanaf 1200px, groeit niet mee zoals het hoort">
+  <img src="readme-images/juiste-footer-coca-cola.png" width="375px" alt="De juiste footer vanaf 1200px, van de coca-cola site">
+
+
 </details>
 
 
@@ -348,7 +374,7 @@ Toen ik even iets beter begreep hoe het werkte ging het navigeren wel beter, maa
   Nb. Vermeld de bronnen ook in je code.
 
   1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
-  2. ...
+  2. https://medium.com/swlh/better-ways-to-organise-css-properties-9a066e7ded62
   3. ...
 
 https://youtu.be/U8smiWQ8Seg?si=7CXJ_CeEp_YXCf-5 voor hamburgermenu
