@@ -242,14 +242,16 @@ Toen ik even iets beter begreep hoe het werkte ging het navigeren wel beter, maa
 
 
   Ik heb er helaas niet echt aan gedacht om screenshots te maken tijdens het coderen, maar ik had toevallig deze wel:
+
   <img src="readme-images/screenshot1.png" width="375px" alt="Proces kaarten voor de carousel">
   <img src="readme-images/screenshot-2.png" width="375px" alt="Proces hamburgermenu en verstopte navigatie">
   <img src="readme-images/screenshot-3.png" width="375px" alt="Proces hamburgermenu en verstopte navigatie">
 
   Nog screenshots van na week 7/dit voortgangsgesprek:
+
   <img src="readme-images/proces-footer0.png" width="375px" alt="Proces van footer responsive maken">
   <img src="readme-images/proces-footer.png" width="375px" alt="Proces van footer responsive maken">
-  <img src="readme-images/proces-merken.png.png" width="375px" alt="Proces van layout van merken aanpassen voor responsive">
+  <img src="readme-images/proces-merken.png" width="375px" alt="Proces van layout van merken aanpassen voor responsive">
   
   
 
