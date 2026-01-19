@@ -236,7 +236,7 @@ Toen ik even iets beter begreep hoe het werkte ging het navigeren wel beter, maa
   ### Stand van zaken
   M'n doel was om aan het einde van de kerstvakantie alle CSS af te hebben. Ik heb hier oprecht wel hard m'n best voor gedaan, maar vanwege persoonlijke omstandigheden minder tijd voor gehad dan ik eerst dacht. Ook ben ik niet zo snel en kost het me veel tijd, om dan vervolgens maar een klein stukje af te hebben. Desondanks was ik wel aardig op weg en wat denk ik voor mij het belangrijkste was was dat m'n vertrouwen en kennis wel steeds meer groeide. Ik krijg het nog wel een beetje benauwd bij het idee dat ik het straks ook nog responsive moest gaan maken, omdat ik geen idee heb hoe dat moet. Maar tot nu toe kom ik er uiteindelijk telkens wel uit, dus ik denk dat dat ook wel goed moet komen. Nu eerst nog even de laatste delen van de CSS afmaken.
 
-  Ik vond dat carousel best ingewikkeld, dus ben me eigenlijk eerst gaan focussen op de athletes code pagina en dat ging eigenlijk steeds beter. Ik vraag ontzettend veel aan Chatgpt, maar ik pas tegelijkertijd al steeds meer zelf aan. Ik merk wel echt dat ik veel geleerd heb de afgelopen twee weken en dat doet me goed. 
+  Ik vond dat carousel best ingewikkeld, dus ben me eigenlijk eerst gaan focussen op de athletes code pagina en dat ging eigenlijk steeds beter. Ik vraag ontzettend veel aan ChatGpT, maar ik pas tegelijkertijd al steeds meer zelf aan. Ik merk wel echt dat ik veel geleerd heb de afgelopen twee weken en dat doet me goed. 
 
   Wat me nog wat ingewikkelder lijkt waar ik nog mee aan de slag moet: carousel, hamburgermenu, uitklapbare menu in footer.
 
@@ -404,6 +404,10 @@ Toen ik even iets beter begreep hoe het werkte ging het navigeren wel beter, maa
   2. https://medium.com/swlh/better-ways-to-organise-css-properties-9a066e7ded62 Voor de juiste volgorde van properties binnen de selector
   3. https://youtu.be/U8smiWQ8Seg?si=7CXJ_CeEp_YXCf-5 Voor tutorial hamburgermenu
 
+  Ik heb veel gebruik gemaakt van ChatGpT. Niet alleen voor één ding specifiek, dus ik weet niet zo goed hoe ik dat bij de bronnen moet zetten. In mijn CSS bestanden heb ik aantekeningen gemaakt bij de delen waar ik echt hulp nodig had en nu ook nog lastig vind om zelf 100% te begrijpen/na te doen. Ik heb wel bij alle code die ik heb gekregen zelf aanpassingen gemaakt en de tijd genomen om te begrijpen wat wat doet en te leren hoe het werkt.
+ 
+  Ik begrijp dat dit met de linkjes zo misschien niet helemaal ideaal is. Als de chat te lang werd liep het vast en moest ik een nieuwe beginnen, vandaar dat het er zo veel zijn. Ik heb geprobeerd ze allemaal te bewaren. Ik ga ervan uit dat dit echt niet allemaal volledig doorgelezen gaat worden, maar het leek me de meest eerlijke manier om te laten zien hoe ik het gebruikt heb? 
+
   4. https://chatgpt.com/share/696e284a-4c84-8002-8df7-85cc03c2957b 
   5. https://chatgpt.com/share/696e29df-aa70-8002-8822-af38a49d7787 
   6. https://chatgpt.com/share/696e2a17-4ab0-8002-a991-a5899a3595b4
@@ -412,6 +416,9 @@ Toen ik even iets beter begreep hoe het werkte ging het navigeren wel beter, maa
   9. https://chatgpt.com/share/696e2a4a-8ad8-8002-8b10-7d735037d467
   10. https://chatgpt.com/share/696e2a58-5ec0-8002-b4d2-61e52bf792e7
   11. https://chatgpt.com/share/696e2a70-cd10-8002-b328-269ae131b930
-
+  12. https://chatgpt.com/share/696e2b42-5cd0-8002-b869-c71598760997 
+  13. https://chatgpt.com/share/696e2b7f-eb9c-8002-8b4a-fabdaad505ac
+  14. https://chatgpt.com/share/696e2be7-b9e4-8002-8add-66562bee0903
+  15. https://chatgpt.com/share/696e2dfc-8bec-8002-9c09-b63ae75242c4
 
 </details>
