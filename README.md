@@ -241,14 +241,29 @@ Toen ik even iets beter begreep hoe het werkte ging het navigeren wel beter, maa
   Wat me nog wat ingewikkelder lijkt waar ik nog mee aan de slag moet: carousel, hamburgermenu, uitklapbare menu in footer.
 
 
+  Ik heb er helaas niet echt aan gedacht om screenshots te maken tijdens het coderen, maar ik had toevallig deze wel:
+  <img src="readme-images/screenshot1.png" width="375px" alt="Proces kaarten voor de carousel">
+  <img src="readme-images/screenshot-2.png" width="375px" alt="Proces hamburgermenu en verstopte navigatie">
+  <img src="readme-images/screenshot-3.png" width="375px" alt="Proces hamburgermenu en verstopte navigatie">
+
+  Nog screenshots van na week 7/dit voortgangsgesprek:
+  <img src="readme-images/proces-footer0.png" width="375px" alt="Proces van footer responsive maken">
+  <img src="readme-images/proces-footer.png" width="375px" alt="Proces van footer responsive maken">
+  <img src="readme-images/proces-merken.png.png" width="375px" alt="Proces van layout van merken aanpassen voor responsive">
+  
+  
+
+
+
+
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  |                | en dit             | en ik dit    | en dan ik dat    |
+  |                | dit als er tijd is | nog een punt | dit wil ik zeker |
+  |                | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
@@ -286,7 +301,8 @@ Toen ik even iets beter begreep hoe het werkte ging het navigeren wel beter, maa
 
   - Ik ben de WCAG checklist opnieuw afgegaan en doordat ik de aria-labels heb toegevoegd aan de buttons en links heb ik dat verbeterd.
     Ik heb alleen dus geen skip link en de video heeft volgens mij dus wel ook autoplay wat beter van niet kan. 
-  - Ik zal de lijst meenemen naar het eindgesprek.
+
+    Ik zal de lijst meenemen naar het eindgesprek.
  
 </details>
 
