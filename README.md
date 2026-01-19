@@ -403,7 +403,15 @@ Toen ik even iets beter begreep hoe het werkte ging het navigeren wel beter, maa
   1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ Voor het beter begrijpen en leren van flexbox
   2. https://medium.com/swlh/better-ways-to-organise-css-properties-9a066e7ded62 Voor de juiste volgorde van properties binnen de selector
   3. https://youtu.be/U8smiWQ8Seg?si=7CXJ_CeEp_YXCf-5 Voor tutorial hamburgermenu
-  4. 
+
+  4. https://chatgpt.com/share/696e284a-4c84-8002-8df7-85cc03c2957b 
+  5. https://chatgpt.com/share/696e29df-aa70-8002-8822-af38a49d7787 
+  6. https://chatgpt.com/share/696e2a17-4ab0-8002-a991-a5899a3595b4
+  7. https://chatgpt.com/share/696e2a29-492c-8002-be61-9547b2d65af0
+  8. https://chatgpt.com/share/696e2a38-0b9c-8002-b6d8-a9cab39c9373
+  9. https://chatgpt.com/share/696e2a4a-8ad8-8002-8b10-7d735037d467
+  10. https://chatgpt.com/share/696e2a58-5ec0-8002-b4d2-61e52bf792e7
+  11. https://chatgpt.com/share/696e2a70-cd10-8002-b328-269ae131b930
 
 
 </details>
